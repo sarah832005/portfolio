@@ -146,7 +146,7 @@ export default function Hero() {
               Mes recherches
             </a>
             <a
-              href="/portfolio/cv.pdf"
+              href="https://sarah832005.github.io/portfolio/cv.pdf"
               target="_blank"
               className="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-6 py-3 text-sm font-medium text-slate-600 hover:bg-slate-50 hover:border-slate-300 transition-all duration-200"
             >
