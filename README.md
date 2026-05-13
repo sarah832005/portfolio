@@ -1,4 +1,4 @@
-# 🦉 Fondée. — Portfolio de Sarra Mahmoudi
+# Portfolio de Sarra Mahmoudi
 
 > *Observer · Comprendre · Construire*
 
