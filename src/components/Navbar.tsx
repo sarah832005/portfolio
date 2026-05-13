@@ -41,7 +41,7 @@ export default function Navbar() {
         {/* Actions */}
         <div className="flex items-center gap-3">
           <a
-            href="/cv.pdf"
+            href="/portfolio/cv.pdf"
             target="_blank"
             className="hidden sm:inline-flex items-center justify-center rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-medium text-slate-700 hover:bg-slate-100 transition"
           >

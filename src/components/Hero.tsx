@@ -58,7 +58,7 @@ export default function Hero() {
             />
             <div className="absolute -inset-3 rounded-full bg-white/80 backdrop-blur-sm" />
             <Image
-              src="/avatar-sarah.jpg"
+              src="/portfolio/avatar-sarah.jpg"
               alt="Sarah Mahmoudi"
               width={256}
               height={256}

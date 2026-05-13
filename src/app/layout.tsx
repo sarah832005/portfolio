@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     "Conception et développement des systèmes d’information. Approche orientée vers l’analyse de données et les systèmes intelligents.",
   icons: {
-    icon: "/logo.png",
+   // icon: "/logo.png",
   },
 };
 
