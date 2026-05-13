@@ -331,8 +331,8 @@ export default function Research() {
               "Alertes immédiates intégrées au runtime",
             ]}
             pdfLinks={[
-              { href: "portfolio/docs/etat-de-art-vr-cybersickness.pdf", label: "État de l'art" },
-              { href: "portfolio/docs/architecture-technique-vr.pdf", label: "Architecture technique" },
+              { href: "https://sarah832005.github.io/portfolio/docs/etat-de-art-vr-cybersickness.pdf", label: "État de l'art" },
+              { href: "https://sarah832005.github.io/portfolio/docs/architecture-technique-vr.pdf", label: "Architecture technique" },
             ]}
             delay={0.35}
             visible={visible}
