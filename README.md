@@ -1,6 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦉 Fondée. — Portfolio de Sarra Mahmoudi
 
-## Getting Started
+> *Observer · Comprendre · Construire*
+
+Portfolio personnel présentant mon parcours, mes compétences et mes projets en **systèmes d'information**, **intelligence artificielle** et **data science**.
+
+🔗 **[Voir le portfolio en ligne](https://sarah832005.github.io/)**
+
+---
+
+## 👩‍💻 À propos
+
+Étudiante en double diplôme **ESB**  × **PSTB** , spécialisée en conception de systèmes d'information et développement web, avec un intérêt marqué pour les **systèmes intelligents** et l'**analyse de données**.
+
+
+---
+
+## 🛠️ Stack technique
+
+| Domaine | Technologies |
+|---|---|
+| **Langages** | Python, Java, C#, JavaScript, TypeScript, PHP, SQL |
+| **Front-end** | React, Next.js, Tailwind CSS, HTML/CSS |
+| **Back-end** | Node.js, Express, Django, Laravel, Flask, .NET |
+| **Bases de données** | MySQL, MariaDB, PostgreSQL, MongoDB, Redis |
+| **Data & IA** | Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Power BI |
+| **IA Générative** | LLM (Mistral), RAG, ChromaDB, Prompt Engineering |
+| **DevOps** | Docker, Jenkins, SonarQube, Git, CI/CD |
+| **Conception** | UML, Figma, Architecture C4, Diagrammes de séquence |
+
+---
+
+## 🔬 Projets de recherche
+
+### 🧠 Système intelligent de prévention du cybersickness en VR
+> IA × Neurosciences × Réalité Virtuelle
+
+Système complet combinant analyse psychométrique, scoring SSQ et génération automatique de paramètres VR adaptatifs pour les profils neurodivergeants (ADHD, autisme, OCD). Intègre un LLM local alimenté par la littérature scientifique via RAG.
+
+**Stack :** Python · FastAPI · React · Mistral LLM · ChromaDB · Sentence Transformers
+
+📂 [Code source](https://github.com/sarah832005/neuro-vr-ai) · 📄 [État de l'art (PDF)](https://sarah832005.github.io/docs/etat-de-art-vr-cybersickness.pdf)
+
+---
+
+### 📊 Analyse temps réel des mouvements VR
+> Machine Learning · Capteurs · Détection d'anomalies
+
+Pipeline ML complet pour prédire le cybersickness à partir des données capteurs VR. Classification supervisée (Logistic Regression **96.7%** accuracy), réduction PCA et clustering K-Means sur 100+ participants.
+
+**Stack :** Python · Scikit-learn · Pandas · NumPy · C# · Bluetooth
+
+📂 [Code source](https://github.com/sarah832005/vr-cybersickness-ml) · 📄 [Documentation](https://sarah832005.github.io/docs/vr_ml_documentation.html)
+
+---
+
+## 📁 Projets sélectionnés
+
+| Projet | Domaine | Technologies | Lien |
+|---|---|---|---|
+| **EduDocs** — Plateforme pour étudiants étrangers | Web Full-stack | React, Node.js, MySQL, Figma | [PDF](https://sarah832005.github.io/docs/edudocs_cahier_des_charges.pdf) |
+| **ShopDB** — Base de données e-commerce | SQL avancé | MySQL/MariaDB, Triggers, Procédures | [GitHub](https://github.com/sarah832005/shopdb-ecommerce) |
+| **DAT** — Architecture CRM SaaS Multi-Tenant | Architecture | C4, NestJS, PostgreSQL, Docker, K8s | [PDF](https://sarah832005.github.io/docs/architecture_technique.pdf) |
+| **Dataviz Netflix** — Analyse exploratoire | Data Science | Python, Pandas, Seaborn | [GitHub](https://github.com/sarah832005/dataviz-project) |
+| **SDI Analysis** — Développement durable (104 pays) | Data & KPIs | Python, Power BI, Pandas | [GitHub](https://github.com/sarah832005/sdi-analysis) |
+| **Secure Notes** — Sécurité OWASP Top 10 | Cybersécurité | Python, Flask, SQLite | [PDF](https://sarah832005.github.io/docs/secure_notes_owasp.pdf) |
+| **eLibrairie** — Gestion de bibliothèque | POO Java | Java, JUnit | [GitHub](https://github.com/sarah832005/Elibrairie) |
+| **DevOps CI/CD** — Pipeline automatisé | DevOps | Jenkins, Docker, SonarQube | [PDF](https://sarah832005.github.io/docs/devops_cicd_pipeline.pdf) |
+
+---
+
+## 📬 Contact
+
+- 📧 **Email :** sarahmahmoudi315@gmail.com
+- 🌐 **Portfolio :** [sarah832005.github.io](https://sarah832005.github.io/)
+- 💻 **GitHub :** [github.com/sarah832005](https://github.com/sarah832005)
+- 📍 **Localisation :** Paris, France
+
 
 First, run the development server:
 
@@ -12,25 +87,4 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
