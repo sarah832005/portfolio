@@ -34,6 +34,8 @@ const DOMAINS: Array<Domain | "Tous"> = [
   "IA / Machine Learning", "Sécurité", "DevOps", "Business / Marketing / Gestion",
 ];
 
+const BASE = "https://sarah832005.github.io/portfolio";
+
 const PROJECTS: Project[] = [
   {
     title: "Portfolio — Fondée.",
@@ -52,7 +54,7 @@ const PROJECTS: Project[] = [
     what: "Application web full-stack facilitant les démarches administratives des étudiants étrangers en France (logement, assurance, CAF, titre de séjour). Phase de préproduction complète : cahier des charges, personas UX (3 segments), diagramme use case UML, maquettes Figma et architecture technique. Stack : React + Node.js/Express + MySQL. 3 rôles distincts : étudiant, administration, conseiller international.",
     concepts: ["UX Research & Personas", "Cahier des charges", "Diagramme Use Case UML", "Architecture REST 3 couches", "RBAC (rôles & permissions)", "Gestion documentaire", "Design System Figma"],
     tools: ["React", "Node.js", "Express", "MySQL", "Figma", "TailwindCSS", "Vercel", "Render"],
-    report: "https://sarah832005.github.io/portfolio/docs/edudocs_cahier_des_charges.pdf",
+    report: `${BASE}/docs/edudocs_cahier_des_charges.pdf`,
   },
   {
     title: "Saraya — Plateforme de Gestion de Logements",
@@ -70,7 +72,7 @@ const PROJECTS: Project[] = [
     what: "Application web de e-learning (Edugo) développée avec Laravel : gestion des utilisateurs, authentification, cours, modules et base de données relationnelle. Conception UML complète : identification des acteurs (Étudiant, Enseignant, Admin), use case, diagrammes de séquence (authentification, ajout cours, mise à jour compte, prise de cours), diagrammes d'activité, diagramme de classes et architecture 3 couches MVC.",
     concepts: ["Architecture MVC 3 couches", "Authentification & rôles", "Gestion des cours", "Use Case UML", "Diagrammes de séquence & activité", "Diagramme de classes", "Base de données relationnelle"],
     tools: ["PHP", "Laravel", "MySQL", "Blade", "HTML/CSS", "Bootstrap", "StarUML"],
-    report: "https://sarah832005.github.io/portfolio/docs/laravel_elearning_conception.pdf",
+    report: `${BASE}/docs/laravel_elearning_conception.pdf`,
     mailto: "mailto:sarahmahmoudi315@gmail.com?subject=Demande code source — E-Learning Laravel",
   },
   {
@@ -80,7 +82,7 @@ const PROJECTS: Project[] = [
     what: "Analyse statistique complète des données d'activité d'un animal équipé du collier PetTracker. Variable étudiée : distance parcourue par jour (km). Calcul de la moyenne (2,1 km), médiane, variance, écart-type (0,37 km) et étendue. Modélisation par loi normale (μ=2,1, σ=0,21), règle 68-95-99%, calculs de probabilités avec table Z. Analyse de corrélation (distance vs calories brûlées) et régression linéaire. Génération de datasets et visualisations Python.",
     concepts: ["Statistiques descriptives", "Moyenne & médiane", "Variance & écart-type", "Loi normale", "Table Z", "Boîte à moustaches", "Corrélation & causalité", "Régression linéaire", "Nuage de points"],
     tools: ["Python", "NumPy", "Pandas", "Matplotlib", "SciPy", "Jupyter"],
-    report: "https://sarah832005.github.io/portfolio/docs/pet_tracker_stats.pdf",
+    report: `${BASE}/docs/pet_tracker_stats.pdf`,
   },
   {
     title: "Marketing Digital — Stratégie & Analyse",
@@ -89,7 +91,7 @@ const PROJECTS: Project[] = [
     what: "Rapport d'analyse de stratégie marketing digital : segmentation, canaux digitaux, indicateurs de performance (KPIs), campagnes et recommandations. Étude complète des leviers d'acquisition et de fidélisation.",
     concepts: ["Stratégie digitale", "Segmentation & ciblage", "SEO/SEM", "KPIs & analytics", "Campagnes marketing", "Content strategy"],
     tools: ["PowerPoint", "Excel", "Google Analytics", "Canva"],
-    report: "https://sarah832005.github.io/portfolio/docs/marketing_report.pdf",
+    report: `${BASE}/docs/marketing_report.pdf`,
   },
   {
     title: "DevOps CI/CD Pipeline",
@@ -98,7 +100,7 @@ const PROJECTS: Project[] = [
     what: "Mise en place d'un pipeline CI/CD complet : intégration continue avec Jenkins, conteneurisation Docker, analyse qualité de code avec SonarQube. Automatisation du build, des tests et du déploiement.",
     concepts: ["CI/CD", "Intégration continue", "Conteneurisation", "Qualité de code", "Automatisation du déploiement", "Pipeline DevOps"],
     tools: ["Jenkins", "Docker", "SonarQube", "Git", "Linux/Bash"],
-    report: "https://sarah832005.github.io/portfolio/docs/devops_cicd_pipeline.pdf",
+    report: `${BASE}/docs/devops_cicd_pipeline.pdf`,
   },
   {
     title: "Secure Notes — Sécurité OWASP Top 10",
@@ -107,7 +109,7 @@ const PROJECTS: Project[] = [
     what: "Développement d'une application de notes sécurisée en respectant les recommandations OWASP Top 10. Étude et correction des principales failles web : injection SQL, XSS, CSRF, authentification défaillante, exposition de données sensibles.",
     concepts: ["OWASP Top 10", "Injection SQL", "XSS & CSRF", "Authentification sécurisée", "Hashage & chiffrement", "Audit de sécurité", "HTTPS & headers"],
     tools: ["Python", "Flask", "SQLite", "bcrypt", "OWASP ZAP"],
-    report: "https://sarah832005.github.io/portfolio/docs/secure_notes_owasp.pdf",
+    report: `${BASE}/docs/secure_notes_owasp.pdf`,
   },
   {
     title: "Système de Gestion de Bibliothèque — Java",
@@ -117,7 +119,7 @@ const PROJECTS: Project[] = [
     concepts: ["Programmation orientée objet", "Héritage & polymorphisme", "Interfaces & collections", "Encapsulation & abstraction", "Surcharge & redéfinition", "Gestion des exceptions"],
     tools: ["Java", "IntelliJ IDEA", "JUnit"],
     github: "https://github.com/sarah832005/Elibrairie",
-    report: "https://sarah832005.github.io/portfolio/docs/rapport_java_librairie.pdf",
+    report: `${BASE}/docs/rapport_java_librairie.pdf`,
   },
   {
     title: "Podcast — LimitLESSons : Breaking Barriers",
@@ -145,8 +147,8 @@ const PROJECTS: Project[] = [
     concepts: ["Nettoyage & préparation des données", "Statistiques descriptives", "Analyses par catégories", "Visualisations"],
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
     github: "https://github.com/sarah832005/dataviz-project/blob/main/notebooks/netflix.ipynb",
-    demo: "https://sarah832005.github.io/portfolio/reports/dashboard_netflix.html",
-    report: "https://sarah832005.github.io/portfolio/reports/rapport_projet_datavisualisation.pdf",
+    demo: `${BASE}/reports/dashboard_netflix.html`,
+    report: `${BASE}/reports/rapport_projet_datavisualisation.pdf`,
   },
   {
     title: "Dataviz — World Happiness (2015–2019)",
@@ -156,8 +158,8 @@ const PROJECTS: Project[] = [
     concepts: ["Fusion multi-fichiers", "Comparaisons par année/pays", "Tendances & évolution", "Corrélations"],
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
     github: "https://github.com/sarah832005/dataviz-project/blob/main/notebooks/world_happiness.ipynb",
-    demo: "https://sarah832005.github.io/portfolio/reports/dashboard_world_happiness.html",
-    report: "https://sarah832005.github.io/portfolio/reports/rapport_projet_datavisualisation.pdf",
+    demo: `${BASE}/reports/dashboard_world_happiness.html`,
+    report: `${BASE}/reports/rapport_projet_datavisualisation.pdf`,
   },
   {
     title: "Mini SI — Medical Project",
@@ -167,7 +169,7 @@ const PROJECTS: Project[] = [
     concepts: ["CRUD fichiers (TXT)", "Validation des entrées", "Historisation", "Statistiques + visualisation"],
     tools: ["Python", "File I/O", "Matplotlib", "Jupyter"],
     github: "https://github.com/sarah832005/medical-project/blob/main/medical_project.ipynb",
-    report: "https://sarah832005.github.io/portfolio/docs/rapport_medical_project.pdf",
+    report: `${BASE}/docs/rapport_medical_project.pdf`,
   },
   {
     title: "Base de données E-commerce — shopdb",
@@ -177,7 +179,7 @@ const PROJECTS: Project[] = [
     concepts: ["Modélisation relationnelle", "Rôles & utilisateurs", "Vues SQL", "Procédures stockées", "Triggers", "Indexation"],
     tools: ["SQL (MySQL/MariaDB)", "StarUML", "Views", "Stored Procedures", "Triggers", "Index"],
     github: "https://github.com/sarah832005/shopdb-ecommerce",
-    report: "https://sarah832005.github.io/portfolio/reports/sql/rapport_shopdb.pdf",
+    report: `${BASE}/reports/sql/rapport_shopdb.pdf`,
   },
   {
     title: "Recherche — Système intelligent de prévention de la cybersickness",
@@ -186,8 +188,8 @@ const PROJECTS: Project[] = [
     what: "Projet de recherche académique sur la réduction du cybersickness en réalité virtuelle par des approches d'intelligence artificielle. Revue de littérature approfondie (état de l'art), étude des mécanismes neurophysiologiques du cybersickness, et proposition d'une architecture technique intégrant des capteurs biométriques en temps réel (EEG, eye-tracking, accéléromètre) pour prédire et atténuer les symptômes.",
     concepts: ["Cybersickness & VR", "Neuro-VR", "État de l'art", "Capteurs biométriques temps réel", "EEG & eye-tracking", "Prédiction adaptative", "Architecture système embarqué"],
     tools: ["Python", "LaTeX", "Zotero", "Unity (VR)", "OpenBCI", "scikit-learn"],
-    report: "https://sarah832005.github.io/portfolio/docs/etat-de-art-vr-cybersickness.pdf",
-    doc: "https://sarah832005.github.io/portfolio/docs/architecture-technique-vr.pdf",
+    report: `${BASE}/docs/etat-de-art-vr-cybersickness.pdf`,
+    doc: `${BASE}/docs/architecture-technique-vr.pdf`,
   },
   {
     title: "Recherche — Analyse temps réel des mouvements VR",
@@ -198,7 +200,7 @@ const PROJECTS: Project[] = [
     tools: ["Python", "scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Jupyter"],
     github: "https://github.com/sarah832005/vr-cybersickness-ml",
     notebook: "https://github.com/sarah832005/vr-cybersickness-ml/blob/main/notebooks/",
-    doc: "https://sarah832005.github.io/portfolio/docs/vr_ml_documentation.html",
+    doc: `${BASE}/docs/vr_ml_documentation.html`,
   },
   {
     title: "Sustainable Development Index — Analyse SDI 2015–2019",
@@ -209,7 +211,7 @@ const PROJECTS: Project[] = [
     tools: ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Power BI", "Jupyter"],
     github: "https://github.com/sarah832005/sdi-analysis",
     notebook: "https://github.com/sarah832005/sdi-analysis/blob/main/sdi_analysis.py",
-    pbix: "https://sarah832005.github.io/portfolio/docs/stream_4_pi.pbix",
+    pbix: `${BASE}/docs/stream_4_pi.pbix`,
   },
   {
     title: "CRM & ERP — Exploration & Implémentation",
@@ -218,7 +220,7 @@ const PROJECTS: Project[] = [
     what: "Étude comparative CRM vs ERP : concepts, enjeux métier et différences fonctionnelles. Installation et configuration d'un CRM open source (Apache + MySQL). Exploration des modules clés : base clients centralisée, automatisation des ventes, gestion des campagnes marketing, support client et reporting. Implémentation d'un mini back-end PHP illustrant la logique CRM : authentification, CRUD contacts, tableau de bord avec statistiques.",
     concepts: ["CRM vs ERP", "Base clients centralisée", "Automatisation des ventes", "Gestion des campagnes", "Reporting & KPIs", "Installation open source", "Back-end PHP / MySQL"],
     tools: ["PHP", "MySQL", "Apache", "SuiteCRM", "HTML/CSS"],
-    report: "https://sarah832005.github.io/portfolio/docs/crm_erp_guide.pdf",
+    report: `${BASE}/docs/crm_erp_guide.pdf`,
   },
   {
     title: "DAT — Plateforme CRM SaaS Multi-Tenant",
@@ -227,7 +229,7 @@ const PROJECTS: Project[] = [
     what: "Conception complète de l'architecture technique d'une plateforme CRM en mode SaaS multi-tenant (PSTB). Diagrammes C4 (Context, Containers, Components), architecture réseau segmentée (DMZ / Zone Applicative / Zone Données), choix d'infrastructure Cloud, stack technique (React, NestJS, PostgreSQL, Redis, RabbitMQ, Docker, Kubernetes), modèle de données multi-tenant avec isolation par tenant_id, 10 Architecture Decision Records (ADR), analyse des risques et conformité RGPD.",
     concepts: ["Architecture SaaS multi-tenant", "Diagrammes C4 (niveaux 1-2-3)", "Segmentation réseau & sécurité", "RBAC & JWT / OAuth2 / OIDC", "Scalabilité horizontale & auto-scaling", "Modèle de données relationnel", "Architecture Decision Records (ADR)", "Conformité RGPD", "Observabilité & monitoring"],
     tools: ["React", "NestJS", "PostgreSQL", "Redis", "RabbitMQ", "Docker", "Kubernetes", "Prometheus", "Grafana", "OpenTelemetry"],
-    report: "https://sarah832005.github.io/portfolio/docs/architecture_technique.pdf",
+    report: `${BASE}/docs/architecture_technique.pdf`,
   },
 ];
 
@@ -447,4 +449,3 @@ export default function Projects() {
     </section>
   );
 }
-
