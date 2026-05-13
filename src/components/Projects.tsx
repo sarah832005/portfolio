@@ -145,8 +145,8 @@ const PROJECTS: Project[] = [
     concepts: ["Nettoyage & préparation des données", "Statistiques descriptives", "Analyses par catégories", "Visualisations"],
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
     github: "https://github.com/sarah832005/dataviz-project/blob/main/notebooks/netflix.ipynb",
-    demo: "reports/dashboard_netflix.html",
-    report: "reports/rapport_projet_datavisualisation.pdf",
+    demo: "https://sarah832005.github.io/portfolio/reports/dashboard_netflix.html",
+    report: "https://sarah832005.github.io/portfolio/reports/rapport_projet_datavisualisation.pdf",
   },
   {
     title: "Dataviz — World Happiness (2015–2019)",
@@ -156,8 +156,8 @@ const PROJECTS: Project[] = [
     concepts: ["Fusion multi-fichiers", "Comparaisons par année/pays", "Tendances & évolution", "Corrélations"],
     tools: ["Python", "Pandas", "Matplotlib", "Seaborn", "Jupyter"],
     github: "https://github.com/sarah832005/dataviz-project/blob/main/notebooks/world_happiness.ipynb",
-    demo: "reports/dashboard_world_happiness.html",
-    report: "reports/rapport_projet_datavisualisation.pdf",
+    demo: "https://sarah832005.github.io/portfolio/reports/dashboard_world_happiness.html",
+    report: "https://sarah832005.github.io/portfolio/reports/rapport_projet_datavisualisation.pdf",
   },
   {
     title: "Mini SI — Medical Project",
@@ -177,7 +177,7 @@ const PROJECTS: Project[] = [
     concepts: ["Modélisation relationnelle", "Rôles & utilisateurs", "Vues SQL", "Procédures stockées", "Triggers", "Indexation"],
     tools: ["SQL (MySQL/MariaDB)", "StarUML", "Views", "Stored Procedures", "Triggers", "Index"],
     github: "https://github.com/sarah832005/shopdb-ecommerce",
-    report: "reports/sql/rapport_shopdb.pdf",
+    report: "https://sarah832005.github.io/portfolio/reports/sql/rapport_shopdb.pdf",
   },
   {
     title: "Recherche — Système intelligent de prévention de la cybersickness",
