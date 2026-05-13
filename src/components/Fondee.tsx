@@ -99,15 +99,7 @@ export default function Fondee() {
           </p>
 
           <div className="flex items-center gap-3 mb-4">
-            <span className="relative h-8 w-8 overflow-hidden rounded-lg bg-white ring-1 ring-slate-200 shadow-sm">
-              <Image src="/logo.png" alt="Fondée logo" fill className="object-cover object-center scale-[1.9]" />
-            </span>
-            <h2
-              className="text-3xl md:text-4xl font-bold text-slate-900"
-              style={{ fontFamily: "'Playfair Display', Georgia, serif", letterSpacing: "-0.02em" }}
-            >
-              Fondée.
-            </h2>
+            
           </div>
 
           <p className="text-sm text-slate-500 leading-relaxed mb-10 max-w-md">

@@ -22,19 +22,8 @@ export default function Navbar() {
         
         {/* Brand / Logo */}
         <a href="#home" className="flex items-center gap-3">
-  <span className="relative h-9 w-9 overflow-hidden rounded-lg bg-white ring-1 ring-slate-200">
-    <Image
-      src="/logo.png"
-      alt="Fondée logo"
-      fill
-      priority
-      className="object-cover object-center scale-[1.9]"
-    />
-  </span>
+  
 
-  <span className="text-lg font-semibold text-slate-900">
-    Fondée.
-  </span>
 </a>
         {/* Navigation links */}
         <div className="hidden md:flex items-center gap-6">

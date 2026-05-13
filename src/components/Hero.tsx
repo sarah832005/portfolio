@@ -84,19 +84,12 @@ export default function Hero() {
         >
           {/* Label */}
           <div className="flex items-center justify-center md:justify-start gap-2 mb-5">
-            <span className="relative h-7 w-7 overflow-hidden rounded-md bg-white ring-1 ring-slate-200 shadow-sm">
-              <Image
-                src="/logo.png"
-                alt="Fondée logo"
-                fill
-                className="object-cover object-center scale-[1.9]"
-              />
-            </span>
+            
             <span
               className="text-[11px] font-bold uppercase tracking-[0.25em] text-slate-400"
               style={{ fontFamily: "'DM Mono', 'Courier New', monospace" }}
             >
-              Fondée.
+              
             </span>
           </div>
 
